@@ -1,0 +1,56 @@
+@media (max-width: 1368px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 965px) {
+    html {
+      flex-direction: column;
+    }
+}
+
+@media (max-width: 860px) {
+    .navbar {
+        display: block;
+    }
+
+    .header {
+        padding: 14px;
+    }
+
+    .header-title {
+        font-size: 20px;
+    }
+
+    .header-nav a {
+        font-size: 16px;
+        display: none;
+    }
+
+    .sidebar ul {
+        font-size: 16px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .main-par-1 {
+        font-size: 14px;
+    }
+
+    .main-par-2 {
+        font-size: 14px;
+    }
+
+    .course-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .header-title {
+        font-size: 14px;
+    }
+}
